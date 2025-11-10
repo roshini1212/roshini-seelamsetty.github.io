@@ -318,7 +318,7 @@
             color: white;
             position: relative;
             overflow: hidden;
-            margin-top: 100px; /* Account for fixed header with quote */
+            margin-top: 100px;
         }
 
         .hero::before {
@@ -1117,6 +1117,7 @@
                     <li><a href="#education" class="nav-link">Education</a></li>
                     <li><a href="#experience" class="nav-link">Experience</a></li>
                     <li><a href="#skills" class="nav-link">Skills</a></li>
+                    <li><a href="#publications" class="nav-link">Publications</a></li>
                     <li><a href="#projects" class="nav-link">Projects</a></li>
                 </ul>
             </nav>
@@ -1160,9 +1161,9 @@
                     <p style="font-size: 1.2rem; line-height: 1.8; color: var(--text-secondary); margin-bottom: 2rem;">
                         I'm a dedicated Computer Science graduate student at Purdue University with a passion for full-stack development, machine learning, and creating innovative software solutions. With professional experience at Accenture and hands-on expertise in modern technologies, I strive to build applications that make a meaningful impact.
                     </p>
-<div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
-    <a href="files/Resume-2.pdf" download class="btn btn-primary">
-        <i class="fas fa-file-download"></i> Download Resume
+                    <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap;">
+                        <a href="files/Resume-2.pdf" download class="btn btn-primary">
+                            <i class="fas fa-file-download"></i> Download Resume
                         </a>
                         <a href="https://github.com/roshini1212" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
                             <i class="fab fa-github"></i> GitHub
@@ -1269,6 +1270,20 @@
                         </ul>
                     </div>
                 </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content card-3d">
+                        <h3>Web Developer</h3>
+                        <p style="color: var(--primary); font-weight: 600;">Bhumi</p>
+                        <p style="color: var(--text-secondary); font-size: 0.9rem; margin-bottom: 1rem;">April 2021 - Dec 2021 | Hyderabad, India</p>
+                        <ul>
+                            <li>Contributed to the development or maintenance of websites for NGOs, enhancing their online presence and reach</li>
+                            <li>Used web technologies (e.g., HTML, CSS, JavaScript) to create and update website features</li>
+                            <li>Collaborated with a team to implement digital solutions for social impact projects</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </div>
     </section>
@@ -1342,14 +1357,51 @@
         </div>
     </section>
 
+    <!-- Publications Section -->
+    <section id="publications" class="section section-white">
+        <div class="container">
+            <h2 class="section-title fade-in">Publications</h2>
+            <div class="card card-3d fade-in" style="max-width: 900px; margin: 0 auto;">
+                <div style="display: flex; align-items: start; gap: 2rem;">
+                    <div style="flex: 1;">
+                        <h3 style="color: var(--primary); margin-bottom: 1rem; font-size: 1.5rem;">
+                            AgileMusT: An Incremental Mutation Testing Framework for Agile Web Applications
+                        </h3>
+                        <p style="color: var(--text-secondary); margin-bottom: 0.5rem;">
+                            <strong>Authors:</strong> Hemanth Nidamanuru, Achyuth Miryala, Roshini Seelamsetty
+                        </p>
+                        <p style="color: var(--text-secondary); margin-bottom: 1rem;">
+                            <strong>Institution:</strong> Purdue University Fort Wayne
+                        </p>
+                        <p style="color: var(--text-primary); line-height: 1.8; margin-bottom: 1.5rem;">
+                            A lightweight, incremental mutation testing framework designed for agile environments. 
+                            AgileMusT introduces a change-driven testing mechanism that reduces mutation execution 
+                            time by approximately 50% while maintaining comparable mutation scores to traditional 
+                            full-scope testing.
+                        </p>
+                        <div style="display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1rem;">
+                            <span class="skill-tag">Mutation Testing</span>
+                            <span class="skill-tag">Agile Development</span>
+                            <span class="skill-tag">CI/CD</span>
+                            <span class="skill-tag">Git Integration</span>
+                            <span class="skill-tag">Python</span>
+                        </div>
+                        <div style="display: flex; gap: 1rem; flex-wrap: wrap;">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
     <!-- Projects Section -->
-    <section id="projects" class="section section-white">
+    <section id="projects" class="section section-gray">
         <div class="container">
             <h2 class="section-title fade-in">Academic Projects</h2>
             <div class="projects-grid">
                 <div class="project-card card-3d fade-in">
                     <div class="project-header">
-                        <h3>Book Recommendation System</h3>
+                        <h3>Book Management System</h3>
                         <p>ML-based recommendation engine</p>
                     </div>
                     <div class="project-content">
@@ -1358,6 +1410,11 @@
                             <li>Streamlined feature engineering, reducing system latency by 20%</li>
                             <li>Conducted thorough testing to enhance accuracy and performance</li>
                         </ul>
+                        <div style="margin-top: 1rem;">
+                            <a href="https://bookrecommendationsystem-qf5o.onrender.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="font-size: 0.9rem; padding: 0.5rem 1rem;">
+                                <i class="fas fa-external-link-alt"></i> View Live Site
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -1372,6 +1429,11 @@
                             <li>Integrated RESTful APIs, improving response time by 30%</li>
                             <li>Applied unit and end-to-end testing for software reliability</li>
                         </ul>
+                        <div style="margin-top: 1rem;">
+                            <a href="https://mastodonhub-1-mdvy.onrender.com" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="font-size: 0.9rem; padding: 0.5rem 1rem;">
+                                <i class="fas fa-external-link-alt"></i> View Live Site
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -1386,6 +1448,11 @@
                             <li>Developed features for course information and schedules</li>
                             <li>Reduced student inquiries by 30% through automation</li>
                         </ul>
+                        <div style="margin-top: 1rem;">
+                            <a href="https://cdn.botpress.cloud/webchat/v2.2/shareable.html?configUrl=https://files.bpcontent.cloud/2024/10/20/23/20241020235028-AVN8H0Z6.json" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="font-size: 0.9rem; padding: 0.5rem 1rem;">
+                                <i class="fas fa-external-link-alt"></i> View Live Site
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -1414,6 +1481,30 @@
                             <li>Onboarded 500+ volunteers within the first month</li>
                             <li>Automated event scheduling, reducing coordination time by 50%</li>
                         </ul>
+                        <div style="margin-top: 1rem;">
+                            <a href="https://volunteer-management-app-kj98nn.flutterflow.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="font-size: 0.9rem; padding: 0.5rem 1rem;">
+                                <i class="fas fa-external-link-alt"></i> View Live Site
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card card-3d fade-in">
+                    <div class="project-header">
+                        <h3>ReelTalk</h3>
+                        <p>Interactive movie discussion platform</p>
+                    </div>
+                    <div class="project-content">
+                        <ul>
+                            <li>Built a full-stack web application for movie enthusiasts to discuss and review films</li>
+                            <li>Implemented real-time chat features and user authentication</li>
+                            <li>Deployed live application with responsive design and optimized performance</li>
+                        </ul>
+                        <div style="margin-top: 1rem;">
+                            <a href="https://reeltalkkk.netlify.app" target="_blank" rel="noopener noreferrer" class="btn btn-primary" style="font-size: 0.9rem; padding: 0.5rem 1rem;">
+                                <i class="fas fa-external-link-alt"></i> View Live Site
+                            </a>
+                        </div>
                     </div>
                 </div>
 
@@ -1435,7 +1526,7 @@
     </section>
 
     <!-- Contact Section -->
-    <section id="contact" class="section section-gray">
+    <section id="contact" class="section section-white">
         <div class="container">
             <h2 class="section-title fade-in">Get In Touch</h2>
             <div style="max-width: 800px; margin: 0 auto;">
@@ -1459,8 +1550,7 @@
                 <div class="contact-card card-3d fade-in">
                     <i class="fas fa-envelope"></i>
                     <h3>Email</h3>
-                   <a href="mailto:roshiniseelamsetty12@gmail.com">Email Me</a>
-
+                    <a href="mailto:roshiniseelamsetty12@gmail.com">Email Me</a>
                 </div>
                 
                 <div class="contact-card card-3d fade-in">
